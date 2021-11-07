@@ -4,7 +4,6 @@ import Form from './components/Form';
 import Results from './components/Results';
 import Loading from './components/Loading';
 import './App.css';
-import { isTypeAliasDeclaration } from 'typescript';
 
 type ResultsStateType = {
   country: string;

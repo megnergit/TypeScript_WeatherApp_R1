@@ -2,18 +2,17 @@
 
 ## Task
 
-We will create a weather app following the textbook "The First React
-App with TypeScript" (Japanese). The weather app
+We will create a weather app, following the textbook ["The First React
+App with TypeScript"](https://react-typescript-book-weather-app.netlify.app/links) (Japanese). What the weather app does: 
 
 - accepts a name of a city
 - hits the API at the website [weatherapi](https://www.weatherapi.com)
 - returns
    + temperature
-   + weather (sunny/cloudy/rainy etc.)
-   + icon
+   + weather (sunny/cloudy/rainy, etc.)
+   + weather icon
 
-We will see how React functions in a TypeScript code.
-
+We will see how React works in a TypeScript code.
 
 This repository is cloned from the [textbook repo](https://github.com/mod728/react-typescript-book-weather-app).
 
@@ -23,7 +22,6 @@ The tech stack we will learn on the way are
 2. TypeScript
 3. React
 4. Netlify (to deploy)
-
 
 ## Quick Summary
 

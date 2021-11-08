@@ -88,7 +88,7 @@ The tech stack we will learn on the way are
    ![Weather app on netlify](./images/netlify.png)
 
 
-## To-DO
+## To-Do
 1. Full annotation in source codes.
 2. Brush up.
 3. Gatsby/Next.js

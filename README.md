@@ -6,7 +6,7 @@ We will create a weather app following the textbook "The First React
 App with TypeScript" (Japanese). The weather app
 
 - accepts a name of a city
-- hits the API at the website (weatherapi)[https://www.weatherapi.com]
+- hits the API at the website [weatherapi](https://www.weatherapi.com)
 - returns
    + temperature
    + weather (sunny/cloudy/rainy etc.)

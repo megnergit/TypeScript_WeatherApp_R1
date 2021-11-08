@@ -51,8 +51,7 @@ The tech stack we will learn on the way are
 └── tsconfig.json
 ```
 
-    We will clone the textbook repo to `src` directory, and work there. .  
-
+    We will clone the textbook repo to `src` directory, and work there. 
 
 4. `npm start`
 

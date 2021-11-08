@@ -27,7 +27,7 @@ The tech stack we will learn on the way are
 
 ## Quick Summary
 
-1. Download (`node.js`)[https://nodejs.org/en/download/].
+1. Download [`node.js`](https://nodejs.org/en/download/).
    - choose 'LTS'
    - `npm` comes together with `node.js`
 
@@ -64,6 +64,7 @@ The tech stack we will learn on the way are
 
 5.  Edit the source codes.
 
+```
 ./src
 ├── App.css
 ├── App.scss
@@ -76,9 +77,10 @@ The tech stack we will learn on the way are
 ├── index.tsx
 ├── react-app-env.d.ts
 └── reportWebVitals.ts
+```
 
 
-6.  Sign up (netlify)[http://www.netlify.com].
+6.  Sign up [netlify](http://www.netlify.com).
     - One can sign up with GitHub ID.
     - We will give netlify an access to GitHub.
     - We do not need to build the app ourselves. netlify does that.

@@ -1,9 +1,8 @@
 # TypeScript WeatherApp
-
 ## Task
 
 We will create a weather app, following the textbook ["The First React
-App with TypeScript"](https://react-typescript-book-weather-app.netlify.app/links) (Japanese). What the weather app does: 
+App with TypeScript"](https://react-typescript-book-weather-app.netlify.app/links) (Japanese). What the weather app does:
 
 - accepts a name of a city
 - hits the API at the website [weatherapi](https://www.weatherapi.com)
@@ -12,16 +11,15 @@ App with TypeScript"](https://react-typescript-book-weather-app.netlify.app/link
    + weather (sunny/cloudy/rainy, etc.)
    + weather icon
 
-We will see how React works in a TypeScript code.
-
-This repository is cloned from the [textbook repo](https://github.com/mod728/react-typescript-book-weather-app).
-
+We will see how React works in a TypeScript code. This repository is
+cloned from the [textbook
+repo](https://github.com/mod728/react-typescript-book-weather-app).
 The tech stack we will learn on the way are
 
 1. Node.js (and npm within)
 2. TypeScript
 3. React
-4. Netlify (to deploy)
+4. Netlify (to deploy the app)
 
 ## Quick Summary
 
@@ -32,9 +30,9 @@ The tech stack we will learn on the way are
 2. Get React template files.
    `npx create-react-app react-typescript-weather-app --template typescript`
 
-    This means to create a copy of `create-react-app` to my local
-    machine with the name `react-typescript-weather-app`, and use
-    typescript template at when making a copy.
+   The command creates a copy of `create-react-app` to the local
+   machine with the name `react-typescript-weather-app` Typescript
+   template is used when making a copy.
 
 3. `cd react-typescript-weather-app`
 
@@ -49,15 +47,15 @@ The tech stack we will learn on the way are
 └── tsconfig.json
 ```
 
-    We will clone the textbook repo to `src` directory, and work there. 
+    We will clone the textbook repo to `src` directory, where we work.
 
 4. `npm start`
 
-    This give us an App development platform. As we edit the source codes
-    we can see the output at `http://localhost:3000`.
+    `node.js` is started. `node.js` is an 'environment' that provides
+    us an App development platform. As we edit the source codes, we
+    can see the updated output at `http://localhost:3000`.
 
-    `Ctrl + C` to stop the server. 
-    
+    `Ctrl + C` to stop `node.js`
 
 5.  Edit the source codes.
 
@@ -78,13 +76,12 @@ The tech stack we will learn on the way are
 
 
 6.  Sign up [netlify](http://www.netlify.com).
-    - One can sign up with GitHub ID.
-    - We will give netlify an access to GitHub.
-    - We do not need to build the app ourselves. netlify does that.
-    - When a build is successful netlify returns an URL of the app.
+    - one can sign up with GitHub ID.
+    - we have to give netlify an access to the repo at our GitHub.
+    - we do not need to build the app ourselves. netlify does that.
+    - when a build is successful, netlify returns an URL of the app.
 
    ![Weather app on netlify](./images/netlify.png)
-
 
 ## To-Do
 1. Full annotation in source codes.

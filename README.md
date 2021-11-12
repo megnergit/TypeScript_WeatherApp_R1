@@ -1,25 +1,35 @@
 # TypeScript WeatherApp
 ## Task
 
-We will create a weather app, following the textbook ["The First React
-App with TypeScript"](https://react-typescript-book-weather-app.netlify.app/links) (Japanese). What the weather app does:
+We will create a tracker app, following the textbook ["The First React
+App with
+JavaScript"](https://react-book-corona-tracker-app-typescript.netlify.app/dev/links)
+(Japanese). The tracker app has two pages.
 
-- accepts a name of a city
-- hits the API at the website [weatherapi](https://www.weatherapi.com)
-- returns
-   + temperature
-   + weather (sunny/cloudy/rainy, etc.)
-   + weather icon
+[Page A: Covid19 infection status by country]
 
-We will see how React works in a TypeScript code. This repository is
-cloned from the [textbook
-repo](https://github.com/mod728/react-typescript-book-weather-app).
-The tech stack we will learn on the way are
+- select one country from pull-down menu
+- show following numbers
+  + date
+  + newly infected
+  + total infection count by now 
+  + newly recovered 
+  + total recovery count by now 
 
-1. Node.js (and npm within)
-2. TypeScript
-3. React
-4. Netlify (to deploy the app)
+[Page B: Covid19 infection status in the world]
+- following numbers are shown for all countries as cards
+  + newly infrected
+  + total count of infections so far
+
+We will see
+- what is API
+- how to work with node.js and npm
+- how to format JSON data
+- how to start a react project
+  + how to use the template `create-react-app`
+  
+- how to push the app to GitHub
+- how to deploy the app on netlify
 
 ## Quick Summary
 
